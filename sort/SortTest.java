@@ -20,7 +20,7 @@ public class SortTest {
 		c.add(ken);
 		
 		//Collections.sort(c,new CustomerComparator());
-		Collections.sort(c);
+		Collections.sort(c);//collections.sort works now because you made customer a comparable.
 		
 		System.out.println(c.toString());
 	}
